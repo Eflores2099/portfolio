@@ -1,0 +1,83 @@
+
+* {
+    font-family: "Raleway", sans-serif;
+
+}
+
+.navbar {
+    border-radius: 1px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:#E2F0D6;
+    font-family: "Raleway" , sans-serif;
+}
+
+a.navbar-brand {
+    color: #E2F0D6 !important;
+}
+
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: #101010;
+    color: #BDD684;
+    border: 0px;
+}
+
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+    border-radius: 0px;
+}
+
+.iconLinks {
+    padding-bottom: 5px !important;
+    padding-top: 10px !important;
+}
+
+.nav-tabs {
+    border-bottom: 0px !important;
+}
+
+.mainContent {
+    position: relative;
+    top: 70px;
+}
+
+#skills,
+#about,
+#portfolio,
+#home, {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+@media only screen and (max-width: 992px) {
+    .big-main {
+        height: 400px !important;
+    }
+    .big-name {
+        top: 175px !important;
+    }
+    h1.big-name {
+        font-size: 3em !important;
+    }
+    h3.big-name {
+        font-size: 1.5em !important;
+    }
+}
+
+.big {
+    position: relative;
+    top: -20px;
+    background: url('./images/photo-coffee-table.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.big-two {
+    background-image: url('./image/marcus-spiske-unsplash.jpg');
+    height: 200px;
+}
