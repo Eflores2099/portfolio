@@ -6,6 +6,7 @@
 
 .navbar {
     border-radius: 1px;
+    background-color: #101010;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -22,6 +23,7 @@ a.navbar-brand {
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
     background-color: #101010;
+    fill: #222222;
     color: #BDD684;
     border: 0px;
 }
@@ -78,9 +80,18 @@ a.navbar-brand {
 }
 
 .big-two {
-    background-image: url('./images/marcus-spiske-unsplash.jpg');
+    background-image: url('./images/marcus-spiske-unsplash.jpg')!important;
     height: 200px;
 }
+
+.big-three {
+    background-image: url("./images/marcus-spiske-518966-unsplash.jpg") !important;
+    background-position: 0% 50%;
+    height: 200px;
+}
+
+
+
 
 
 .big-name {
@@ -165,25 +176,51 @@ h3.big-name {
     margin: 20px 10px;
 }
 
-.panel-container {
-    padding-bottom: 60px;
-}
-
-.panel {
-    border: 0px solid transparent;
-}
-
-.panel-heading {
-    padding: 10px 15px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
 
 .aboutParas {
     padding-top: 20px;
     font-size: 1.15em;
     
+}
+
+.html {
+    background: url('images/logos/HTML5_Logo_512.png') no-repeat center center;
+    background-size: contain;
+}
+
+.css {
+    background: url('images/logos/css3-logo.png') center center no-repeat;
+    background-size: contain;
+}
+
+.js {
+    background: url('images/logos/Javascript-shield.png') center center no-repeat;
+    background-size: contain;
+}
+
+.boot {
+    background: url('images/logos/Bootstrap.png') center center no-repeat;
+    background-size: contain;
+}
+
+
+.node {
+    background: url('images/logos/nodejs-icon.svg') center center no-repeat;
+    background-size: contain;
+}
+
+.mongo {
+    background: url('images/logos/mongodbicon.png') center center no-repeat;
+    background-size: contain;
+}
+.express {
+    background: url('images/logos/expressIcon.png') center center no-repeat;
+    background-size: contain;
+}
+
+.react {
+    background: url('images/logos/react.png') center center no-repeat;
+    background-size: contain;
 }
 
 
