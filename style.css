@@ -1,36 +1,25 @@
-
 * {
-    font-family: "Raleway", sans-serif;
-
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 .navbar {
     border-radius: 1px;
-    background-color: #101010;
-    position: absolute !important;
-    z-index: 3;
-    width: 100vw;
-
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color:#E2F0D6;
-    font-family: "Raleway" , sans-serif;
-    
+    color: lightsteelblue;
+    font-family: 'Raleway', sans-serif;
 }
-
-
 
 a.navbar-brand {
-    color: #E2F0D6 !important;
+    color: lightsteelblue !important;
 }
-
 
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:focus,
 .nav-tabs>li.active>a:hover {
     background-color: #101010;
-    fill: #222222;
     color: #BDD684;
     border: 0px;
 }
@@ -38,10 +27,6 @@ a.navbar-brand {
 .nav-tabs>li>a:focus,
 .nav-tabs>li>a:hover {
     border-radius: 0px;
-}
-
-h1.big-name {
-   z-index: 2;
 }
 
 .iconLinks {
@@ -61,7 +46,8 @@ h1.big-name {
 #skills,
 #about,
 #portfolio,
-#home, {
+#home,
+#contact {
     padding-top: 60px;
     margin-top: -60px;
 }
@@ -81,35 +67,33 @@ h1.big-name {
     }
 }
 
+
+
 .big {
     position: relative;
-    top: -70px;
-    background: url('./images/photo-coffee-table.jpeg') no-repeat center center;
+    top: -20px;
+    background: url('images/photo-coffee-table.jpeg') center center no-repeat;
     background-size: cover;
     height: 600px;
     width: 100%;
 }
 
 .big-two {
-    background-image: url('') ;
+    background-image: url("images/markus-spiske-518966-unsplash.jpg") !important;
     height: 200px;
-    width:100%;
-    
 }
 
 .big-three {
-    background-image: url("images/markus-spiske-518966-unsplash.jpg") ;
+    background-image: url("images/markus-spiske-unsplash.jpg") !important;
     background-position: 0% 50%;
-    
+    height: 200px;
 }
 
 .big-four {
-    background-image: url("") ;
+    background-image: url("images/zinou-benhaya-1378057-unsplash.jpg") !important;
     background-position: 0% 80%;
-    height: 200px;
-    width: 100%;
+    height: 250px;
 }
-
 
 .big-name {
     position: relative;
@@ -118,7 +102,7 @@ h1.big-name {
     margin: auto;
     text-align: left;
     font-family: 'Raleway', sans-serif;
-    color: #95AB63;
+    color: lightsteelblue;
     padding: 20px 20px;
     background-color: rgba(0, 0, 0, .5)
 }
@@ -129,16 +113,16 @@ h1.big-name {
 
 h3.big-name {
     font-size: 2em;
-    color: #BDD684;
+    color: lightsteelblue;
 }
 
 .social a {
-    color: #F6FFE0;
+    color:lightskyblue;
     padding: 10px 5px;
 }
 
 .social a:hover {
-    color: #BDD684;
+    color:lightbluesteel;
 }
 
 .skillsContainer {
@@ -158,7 +142,7 @@ h3.big-name {
 
 .subhr {
     width: 50%;
-    border: 1px solid rgba(149, 171, 99, .6);
+    border: 1px solid rgba(19, 52, 201, 0.767);
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -193,6 +177,20 @@ h3.big-name {
     margin: 20px 10px;
 }
 
+.panel-container {
+    padding-bottom: 60px;
+}
+
+.panel {
+    border: 0px solid transparent;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
 
 .aboutParas {
     padding-top: 20px;
@@ -200,63 +198,66 @@ h3.big-name {
     
 }
 
-.html {
-    background: url('./images/logos/HTML5_Logo_512.png') no-repeat center center;
-    background-size: contain;
-    width: 100%;
-    height:100%;
+.aboutParas p {
+    line-height: 1.4em;
+    text-align: justify;
 }
 
-.css3 {
+.panel-group .panel {
+    border-radius: 0px;
+    margin-top: 5px;
+}
+
+.panel-default>.panel {
+    border-radius: 0px;
+}
+
+.panel-default>.panel-heading {
+    background-color: #E2F0D6;
+}
+
+.screenshots {
+    margin-top: 5px;
+}
+
+
+
+.html {
+    background: url('images/logos/HTML5_Logo_512.png') center center no-repeat;
+    background-size: contain;
+}
+
+.css {
     background: url('images/logos/css3-logo.png') center center no-repeat;
     background-size: contain;
-    width: 100%;
-    height:100%;
 }
 
 .js {
     background: url('images/logos/Javascript-shield.png') center center no-repeat;
     background-size: contain;
-    width: 100%;
-    height: 100%;
 }
 
 .boot {
     background: url('images/logos/Bootstrap.png') center center no-repeat;
     background-size: contain;
-    width: 50%;
-    height: 50%;
 }
 
 
 .node {
-    background: url('images/logos/nodejs-icon.svg') center center no-repeat;
+    background: url('images/logos/node.svg') center center no-repeat;
     background-size: contain;
-    width: 100%;
-    height: 100%;
 }
 
 .mongo {
     background: url('images/logos/mongodbicon.png') center center no-repeat;
     background-size: contain;
-    width: 100%;
-    height: 100%;
 }
 .express {
     background: url('images/logos/expressIcon.png') center center no-repeat;
     background-size: contain;
-    width: 100%;
-    height:100%;
 }
 
 .react {
     background: url('images/logos/react.png') center center no-repeat;
     background-size: contain;
-    width:100%;
-    height:100%;
 }
-
-
-
-
-
