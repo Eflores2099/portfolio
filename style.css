@@ -83,6 +83,7 @@ a.navbar-brand {
     height: 540px;
     width: 100%;
     box-shadow: 0 8px 6px -6px black;
+    
 
 }
 
@@ -107,12 +108,12 @@ a.navbar-brand {
 .big-name {
     position: relative;
     top: 300px;
-    z-index: 10;
+    z-index: 20;
     margin: auto;
     text-align: left;
     font-family: 'Raleway', sans-serif;
     color: lightsteelblue;
-    padding: 20px 10px;
+    padding: 21px 10px;
     background-color: rgba(0, 0, 0, 0.5)
 }
 
@@ -186,6 +187,9 @@ h3.big-name {
     margin: 20px 10px;
 }
 
+.thumbnail:hover{
+    transform: translate(0, -5px);
+}
 
 
 .aboutParas {
