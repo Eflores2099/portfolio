@@ -3,6 +3,13 @@
     
 }
 
+body, html{
+    height:100%;
+    padding: 0;
+    margin: 0;
+
+}
+
 .navbar {
     border-radius: 1px;
 }
@@ -48,7 +55,7 @@ a.navbar-brand {
 #portfolio,
 #home, {
     padding-top: 60px;
-    margin-top: -60px;
+    margin-top: -70px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -75,16 +82,18 @@ a.navbar-brand {
     background-size: cover;
     height: 540px;
     width: 100%;
+    box-shadow: 0 8px 6px -6px black;
 
 }
 
 .big-two {
     background-image: url("images/rohit-tandon-411851-unsplash.jpg") !important;
-    height: 200px;
+    height: 210px;
+    margin-top: 50px;
 }
 
 .big-three {
-    background-image: url("images/") !important;
+    background-image: url("images/chad-peltola-1089076-unsplash.jpg") !important;
     background-position: 0% 50%;
     height: 200px;
 }
@@ -194,7 +203,7 @@ h3.big-name {
 
 
 .screenshots {
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 
