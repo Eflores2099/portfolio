@@ -28,17 +28,13 @@ body, html{
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 675px) {
     .columns {
         flex-direction: column;
-        align-items: center;
+        align-items:center;
+        margin: auto;
     }
 
-    li {
-        display:flex;
-        align-items: column;
-        margin-bottom:1em;
-    }
 }
 
 
@@ -201,6 +197,8 @@ h3.big-name {
         width: 1000px;
     }
 }
+
+
 
 .port-title {
     margin-top: 10px;
