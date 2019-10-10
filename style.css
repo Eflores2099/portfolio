@@ -32,10 +32,12 @@ body, html{
     .columns {
         flex-direction: column;
         align-items: center;
-        
-        
-        
+    }
 
+    li {
+        display:flex;
+        align-items: column;
+        margin-bottom:1em;
     }
 }
 
