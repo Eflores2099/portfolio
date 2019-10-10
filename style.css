@@ -22,12 +22,21 @@ body, html{
     margin: 1em;
 }
 
-.col-1 {
+.col-1, 
+.col-2 {
     width: 50%;
 }
 
-.col-2 {
-    width: 50%;
+
+@media (max-width: 650px) {
+    .columns {
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+
+    }
 }
 
 
