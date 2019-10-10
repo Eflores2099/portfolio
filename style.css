@@ -24,15 +24,19 @@ body, html{
 
 .col-1, 
 .col-2 {
-    width: 50%;
+    width: 100%;
 }
 
 
 @media (max-width: 675px) {
     .columns {
         flex-direction: column;
-        align-items:center;
-        margin: auto;
+        justify-content: center;
+        margin: auto, .5em;
+    }
+
+    .thumbnail {
+        width:100%;
     }
 
 }
