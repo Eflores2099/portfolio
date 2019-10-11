@@ -24,7 +24,7 @@ body, html{
 
 .col-1, 
 .col-2 {
-    width: 100%;
+    width: 95%;
 }
 
 
@@ -32,11 +32,6 @@ body, html{
     .columns {
         flex-direction: column;
         justify-content: center;
-        margin: auto, .5em;
-    }
-
-    .thumbnail {
-        width:100%;
     }
 
 }
