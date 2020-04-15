@@ -240,6 +240,18 @@ h3.big-name {
     text-align: justify;
 }
 
+/* .row {
+    display: flex;
+    flex-direction: right;
+} */
+
+#me {
+    width: 25%; 
+    background: url('images/IMG_1057.JPG');
+}
+
+
+
 
 
 .screenshots {
